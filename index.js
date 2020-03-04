@@ -1,5 +1,5 @@
 getDate = () => {
-    return Date(Date.now())
+    return `Current date: ${Date(Date.now())}`
 }
 
 module.exports = {
